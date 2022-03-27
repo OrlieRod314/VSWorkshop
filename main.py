@@ -2,7 +2,7 @@ from vec3 import Vec3 as v3
 
 def main():
     print("Hello World")
-    #print(arithmetic(1, 2))
+    print(arithmetic(1, 2))
     if debuggingPractice() != 14:
         print("debuggingPractice returns {}, SHOULD return 14".format(debuggingPractice()))
     else:
